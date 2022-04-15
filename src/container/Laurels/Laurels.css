@@ -1,0 +1,22 @@
+.app__laurels {
+    position: relative;
+}
+
+.app__laurels-overlay {
+    position: absolute;
+    inset: 0;
+}
+
+.app__laurels-logo {
+    width: 146px;
+    margin:55px 0 0 63px;
+}
+
+.app__laurels-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.app__laurels-g {
+    width: 555px;
+}

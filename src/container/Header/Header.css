@@ -1,5 +1,6 @@
 .app__header {
     background-color: var(--color-black);
+    /* top: 100px; */
 }
 
 .app__header-h1 {

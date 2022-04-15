@@ -1,0 +1,28 @@
+.c__quote {
+    display: flex;
+    gap: 10px;
+    color: var(--color-white);
+    margin-top: 40px;
+}
+
+.c__wrapper_img {
+    margin-bottom: 10px;
+}
+
+.c__paraf {
+    width: 235px;
+    margin-top: 40px;
+}
+
+.c__name {
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.c__title{
+    color: var(--color-grey);
+    font-family: var(--font-alt);
+    font-size: 16px;
+}

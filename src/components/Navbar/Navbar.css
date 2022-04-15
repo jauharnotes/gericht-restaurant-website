@@ -1,10 +1,19 @@
 .app__navbar {
     width: 100%;
     display: flex;
+    position: fixed;
+    background: var(--color-black);
     justify-content: space-between;
     align-items: center;
-    background: var(--color-black);
     padding: 1rem 2rem;
+    z-index: 20;
+}
+
+.app__logo {
+    font-family: var(--font-base);
+    font-size: 44px;
+    font-weight: bold;
+    color: var(--color-white);
 }
 
 .app__navbar-logo {
