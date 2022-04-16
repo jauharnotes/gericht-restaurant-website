@@ -26,3 +26,9 @@
     font-family: var(--font-alt);
     font-size: 16px;
 }
+
+.chef__opensans {
+    color:var(--color-grey) !important;
+    font-style: italic;
+    font-size: 16px;
+}
