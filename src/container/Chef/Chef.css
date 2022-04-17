@@ -32,3 +32,9 @@
     font-style: italic;
     font-size: 16px;
 }
+
+.chef__header-h1 {
+    font-size: 64px;
+    color: var(--color-golden);
+    font-family: var(--font-base);
+}

@@ -102,7 +102,7 @@
     }
   } */
   
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 884px) {
     .app__laurels-wrapper {
       flex-direction: column;
       align-items: center;
@@ -125,14 +125,26 @@
     }
 
     .app__laurels-g {
-        width: 342.89px;
-        height: 490.55px;
+        width: 445px;
+        height: 554.05px;
     }
+
+    .app_laurels-top {
+        text-align: center;
+    }
+
+    
   }
   
   @media screen and (max-width: 650px) {
     .laurels__awards-wrapp {
         width: 100%;
+    }
+
+    .app__laurels-g {
+        width: 376.69px;;
+        height: 469px;
+        padding: 20px;
     }
   }
   

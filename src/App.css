@@ -54,7 +54,7 @@
 }
 
 .custom__button {
-  background-color: var(--color-golden);
+    background-color: var(--color-golden);
     color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 700;
@@ -66,6 +66,10 @@
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.custom__button:hover {
+  background-color: #e6c759;
 }
 
 .p__cormorant {
