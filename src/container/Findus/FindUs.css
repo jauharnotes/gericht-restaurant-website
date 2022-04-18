@@ -1,0 +1,78 @@
+.findus__container {
+    background-image: url('../../assets/bg.png');
+}
+
+.findus__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    
+}
+
+.findus_image {
+    width:  634px;
+    height: 789px;
+}
+
+.findus_contact {
+    font-size: 23px;
+    font-family: var(--font-base);
+    font-weight: bold;
+    color: var(--color-white);
+    margin-bottom: 8px;
+}
+
+.findus__find {
+    font-size: 64px;
+    font-weight: 600;
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    margin-bottom: 67px;
+}
+
+.findus__desc {
+    font-family: var(--font-alt);
+    font-size: 16px;
+    color: var(--color-grey);
+    margin-bottom: 32px;
+}
+
+.findus__open {
+    font-size: 23px;
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    margin-bottom: 16px;
+}
+
+.findus__date {
+    font-family: var(--font-alt);
+    font-size: 16px;
+    color: var(--color-white);
+    margin-bottom: 64px;
+}
+
+@media screen and (max-width: 1235px) {
+    .findus__wrapper {
+        gap: 20px;
+        margin: 0 10px 0 10px;
+    }
+
+    .findus_image {
+        width: 392.41px;
+        height: 433px;
+    }
+}
+
+@media screen and (max-width: 908px) {
+     .findus__left {
+        text-align: center;
+    }
+
+    .right {
+        margin-top: 30px;
+    }
+}
