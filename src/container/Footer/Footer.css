@@ -46,8 +46,12 @@
     margin-top: 24px;
 }
 
+.footer__input {
+    max-width: 80%;
+}
+
 .footer__input input {
-    width: 635px;
+    width: 60%;
     padding: 10px 20px;
     margin-right: 30px;
     font-family: var(--font-base);
@@ -56,11 +60,78 @@
 }
 
 .footer__input button {
-    padding: 10px 20px;
+   width: 30%;
+}
+
+.footer__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 153px;
+}
+
+.footer__title-bottom {
+    text-align: center;
+}
+
+.footer__title-bottom h1 {
+    font-size: 32px;
     font-family: var(--font-base);
-    background-color: var(--color-golden);
-    color: var(--color-white);
-    border: none;
+    margin-bottom: 24px;
+}
+
+.footer__title-bottom p {
+    font-family: var(--font-alt);
     font-size: 16px;
-    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.footer__header-b {
+    font-size: 64px;
+    font-family: var(--font-base);
+    color: var(--color-golden);
+}
+
+.footer__quote {
+    max-width: 438px;
+    line-height: 28px;
+}
+
+.footer__socialmedia {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 144px;
+}
+
+@media screen and (max-width: 800px) {
+    .footer__bottom {
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .items {
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .footer__input input {
+        width: 100%;
+    }
+
+    .footer__input button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .footer__header {
+        padding: 20px;
+    }
 }
