@@ -1,3 +1,7 @@
+![Web Display Gif](https://github.com/jauharnotes/gericht-restaurant-website/blob/master/src/assets/desktop.gif)
+![Tablet Display Gif](https://github.com/jauharnotes/gericht-restaurant-website/blob/master/src/assets/tablet.gif)
+![Mobile Display Gif](https://github.com/jauharnotes/gericht-restaurant-website/blob/master/src/assets/mobile.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
